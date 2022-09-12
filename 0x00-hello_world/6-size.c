@@ -4,14 +4,14 @@
 * main - print the string in the put function
 *
 * Description: using the main function
-* this program prints "the size of various types
+* this program prints "the size of various types on the computer
 * Return: 0
 */
 int main(void)
 {
 	char c;
 	int i;
-	long li
+	long li;
 	long long lli;
 	float f;
 
@@ -19,6 +19,6 @@ int main(void)
 	printf("size of an int: %ld byte(s)\n", sizeof(i));
 	printf("size of a long int: %ld byte(s)\n", sizeof(li));
 	printf("size of a long long int: %ld byte(s)\n", sizeof(lli));
-	printf("size of afloat: %ld byte(s)\n", sizeof(f));
+	printf("size of a float: %ld byte(s)\n", sizeoffloat(f));
 	return (0);
 }
