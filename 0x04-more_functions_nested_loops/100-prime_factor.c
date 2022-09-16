@@ -14,18 +14,18 @@ int main(void)
 
 	while (inc++ < number / 2)
 	{
-		if (number % inc == 0)
-		{
-			number /= 2;
-			continue;
-		}
+	if (number % inc == 0)
+	{
+		number /= 2;
+		continue;
+	}
 
-		for (inc = 3; inc < number / 2; inc += 2)
-		{
-			if (number % inc == 0)
-				number /= inc;
-		}
-		}
-		printf("%d\n", number);
+	for (inc = 3; inc < number / 2; inc += 2)
+	{
+		if (number % inc == 0)
+			number /= inc;
+	}
+	}
+		printf("%ld\n", number);
 		return (0);
 }
